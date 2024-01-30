@@ -14,7 +14,6 @@ window.onscroll = function () {
         header.style.backgroundColor = "#983304ce";
         header.style.backdropFilter = "blur(5px)"
         document.querySelector('.input').style.borderBottomColor = '#dac894';
-        document.querySelector('.header-logo img').src = 'assets/AIRE logo.png';
     } else {
         // Se estiver no topo, mostra .header-menu e .div-header
         header.classList.remove("scrolled");
@@ -22,6 +21,5 @@ window.onscroll = function () {
         header.style.backgroundColor = "";
         header.style.backdropFilter = "blur(0px)"
         document.querySelector('.input').style.borderBottomColor = '#983404';
-        document.querySelector('.header-logo img').src = 'assets/AIRE logo marrom.png'; 
     }
 };

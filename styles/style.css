@@ -443,7 +443,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5% 10% 10% 10%;
+    margin: 5% 10% 5% 10%;
 }
 
 .title-product{
@@ -528,6 +528,91 @@ header {
 .product-button:hover{
     background-color: #4C7A4C;
     color: #dac894;
+}
+
+.element-green{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 10% 5% 10%;
+    background-image: url(/assets/element-green.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 5px 5px 0px #37373757;
+    margin-bottom: 5%;
+    width: 100%;
+    height: 25rem;
+}
+
+.text-element{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    gap: 10px;
+}
+
+.text-element h2{
+    font-family: 'Brastika';
+    font-size: 3rem;
+    font-weight: 300;
+    color: #dac894;
+}
+
+.text-element p{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #dac894;
+}
+
+.text-element button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1.3px solid #dac894;
+    color: #dac894;
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-top: 5%;
+    padding: 1.3%;
+    width: 30%;
+    transition: 0.5s;
+}
+
+.text-element button:hover{
+    background-color: #dac894;
+    color: #4C7A4C;
+}
+
+.image-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-element img{
+    width: 100%;
+    height: auto;
+}
+
+.image-models{
+    display: flex;
+    position: absolute;
+    transform: translate(-70%, 10%);
+    box-shadow: 2px 2px 5px 1px #0000004a;
+    width: 30%;
+    z-index: 2;
+}
+
+.image-jade{
+    position: absolute;
+    transform: translate(-5%, -25%);
+    rotate: -30deg;
+    width: 33%;
+    z-index: 1;
 }
 
 footer {
