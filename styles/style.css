@@ -509,6 +509,27 @@ header {
     height: auto;
 }
 
+.product-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1.3px solid #4C7A4C;
+    color: #4C7A4C;
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-top: 5%;
+    padding: 1%;
+    width: 23%;
+    transition: 0.5s;
+}
+
+.product-button:hover{
+    background-color: #4C7A4C;
+    color: #dac894;
+}
+
 footer {
     display: flex;
     justify-content: space-evenly;
