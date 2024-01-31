@@ -247,7 +247,7 @@ header {
     display: flex;
     flex-direction: column;
     padding: 5%;
-    transform: translateY(30%);
+    transform: translateY(15%);
     position: absolute;
 }
 

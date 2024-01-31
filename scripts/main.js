@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
         focus  : 'center',
         perPage: 4,
         autoScroll: {
-        speed: 0.1,
+        speed: 1, 
         },
     }).mount( window.splide.Extensions);
 });
