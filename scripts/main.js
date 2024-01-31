@@ -23,3 +23,17 @@ window.onscroll = function () {
         document.querySelector('.input').style.borderBottomColor = '#983404';
     }
 };
+
+//splide slider code 
+
+document.addEventListener('DOMContentLoaded', function () {
+    new Splide('.splide', {
+        type   : 'loop',
+        drag   : 'free',
+        focus  : 'center',
+        perPage: 4,
+        autoScroll: {
+        speed: 0.1,
+        },
+    }).mount( window.splide.Extensions);
+});

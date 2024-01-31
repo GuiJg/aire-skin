@@ -16,6 +16,7 @@
 body {
     font-family: 'Kanit', sans-serif;
     background-color: #f5f5f5;
+    overflow-x: hidden;
 }
 
 header {
@@ -615,6 +616,65 @@ header {
     z-index: 1;
 }
 
+.numbers-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 10% 5% 10% 5%;
+}
+
+.text-numbers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-numbers h2{
+    font-family: 'Brastika';
+    font-size: 5rem;
+    font-weight: 400;
+    color: #B2603B;
+}
+
+.text-numbers p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #B2603B;
+}
+
+.border-text{
+    background-color: #4C7A4C;
+    width: 1px;
+    height: 10rem;
+}
+
+.bottom-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-bottom h2{
+    font-family: 'Brastika';
+    font-size: 4rem;
+    font-weight: 400;
+    color: #B2603B;
+}
+
+.bottom-product{
+    width: 100%;
+}
+
 footer {
     display: flex;
     justify-content: space-evenly;
@@ -657,10 +717,18 @@ footer p:hover {
     flex-direction: column;
 }
 
+.text-footer h2{
+    font-weight: 400;
+}
+
 .social-footer {
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+
+.social-footer h2{
+    font-weight: 400;
 }
 
 .container-social {
