@@ -60,4 +60,22 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .numbers-page{
+        flex-direction: column;
+        gap: 15%;
+        margin-bottom: 15%;
+    }
+
+    .border-text{
+        height: 0.1rem;
+        width: 20rem;
+        margin: 5%;
+    }
+
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }

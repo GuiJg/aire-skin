@@ -479,7 +479,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5% 10% 5% 10%;
+    margin: 8% 10% 12% 10%;
 }
 
 .title-product {
@@ -637,7 +637,7 @@ header {
 .image-models {
     display: flex;
     position: absolute;
-    transform: translate(-70%, 10%);
+    transform: translate(-75%, 10%);
     box-shadow: 2px 2px 5px 1px #0000004a;
     width: 30%;
     z-index: 2;
@@ -645,9 +645,9 @@ header {
 
 .image-jade {
     position: absolute;
-    transform: translate(-5%, -25%);
+    transform: translate(-5%, -50%);
     rotate: -30deg;
-    width: 33%;
+    width: 25%;
     z-index: 1;
 }
 
@@ -655,7 +655,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 5%;
     margin: 10% 5% 10% 5%;
 }
 

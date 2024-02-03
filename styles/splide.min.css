@@ -201,6 +201,10 @@ ul{
     outline-offset: 3px
 }
 
+.splide__pagination__page{
+    border: 0;
+}
+
 .splide__progress__bar {
     background: #ccc;
     height: 3px
